@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio pessoal e profissional de Aniele Aparecida da Rocha Posselt.">
+  <title>Portfólio | Aniele Aparecida da Rocha Posselt</title>
+  <style>
+    :root {
+      --rose: #b98283;
+      --rose-dark: #79585a;
+      --cream: #fbf7f3;
+      --paper: #fffdfb;
+      --ink: #493e3c;
+      --muted: #887976;
+      --line: #eadbd6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 36px 16px;
+      background: linear-gradient(135deg, #f2e7e2, #faf5f1 55%, #efe3df);
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.7;
+    }
+    .portfolio {
+      width: min(900px, 100%);
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 18px 55px rgba(92, 62, 59, .10);
+    }
+    header {
+      text-align: center;
+      padding: 66px 28px 54px;
+      background:
+        radial-gradient(circle at 12% 18%, rgba(255,255,255,.8) 0 3px, transparent 4px),
+        radial-gradient(circle at 88% 76%, rgba(255,255,255,.7) 0 4px, transparent 5px),
+        linear-gradient(135deg, #f3e5e1, #fbf3ef 55%, #ead8d3);
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--rose-dark);
+      letter-spacing: .25em;
+      text-transform: uppercase;
+      font-size: .78rem;
+      font-weight: 700;
+    }
+    h1 {
+      margin: 0 auto;
+      max-width: 700px;
+      color: var(--rose-dark);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      font-weight: 500;
+      line-height: 1.15;
+    }
+    .subtitle { margin: 16px 0 0; color: var(--muted); }
+    main { padding: 18px clamp(22px, 6vw, 62px) 44px; }
+    section { padding: 25px 0; border-bottom: 1px solid var(--line); }
+    section:last-child { border-bottom: 0; }
+    h2 {
+      margin: 0 0 12px;
+      color: var(--rose-dark);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.45rem;
+      font-weight: 500;
+    }
+    p { margin: 0; }
+    ul { margin: 8px 0 0; padding-left: 22px; }
+    li { padding: 3px 0; }
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .tag {
+      padding: 7px 13px;
+      color: var(--rose-dark);
+      background: #f7eeeb;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: .93rem;
+    }
+    .quote {
+      margin: 30px 0 4px;
+      padding: 24px;
+      text-align: center;
+      color: var(--rose-dark);
+      background: var(--cream);
+      border-radius: 16px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.25rem;
+      font-style: italic;
+    }
+    footer {
+      padding: 20px;
+      text-align: center;
+      color: var(--muted);
+      background: #faf4f1;
+      font-size: .9rem;
+    }
+    @media (max-width: 520px) {
+      body { padding: 12px 8px; }
+      .portfolio { border-radius: 16px; }
+      header { padding: 48px 20px 40px; }
+      main { padding-left: 22px; padding-right: 22px; }
+    }
+    @media print {
+      body { padding: 0; background: white; }
+      .portfolio { width: 100%; border: 0; border-radius: 0; box-shadow: none; }
+      section { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <article class="portfolio">
+    <header>
+      <p class="eyebrow">Apresentação pessoal e profissional</p>
+      <h1>Aniele Aparecida da Rocha Posselt</h1>
+      <p class="subtitle">Portfólio • Estudante de Administração</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>01 · Sobre mim</h2>
+        <p>Sou Aniele Aparecida da Rocha Posselt, estudante do 2º ano do curso técnico em Administração no CEEP. Sou uma pessoa dedicada, organizada e com vontade de aprender. Busco desenvolver minhas habilidades e adquirir experiências que contribuam para meu crescimento pessoal e profissional.</p>
+      </section>
+
+      <section>
+        <h2>02 · Formação acadêmica</h2>
+        <ul>
+          <li><strong>Instituição:</strong> CEEP</li>
+          <li><strong>Escolaridade:</strong> 2º ano do Ensino Médio</li>
+          <li><strong>Curso:</strong> Técnico em Administração</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>03 · Minhas habilidades</h2>
+        <div class="tag-list">
+          <span class="tag">Comunicação</span>
+          <span class="tag">Organização</span>
+          <span class="tag">Trabalho em equipe</span>
+          <span class="tag">Responsabilidade</span>
+          <span class="tag">Criatividade</span>
+          <span class="tag">Vontade de aprender</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>04 · Projetos e atividades escolares</h2>
+        <p>Durante minha formação, desenvolvi atividades e projetos relacionados à Administração, como:</p>
+        <ul>
+          <li>Planejamento de Marketing e divulgação de produtos.</li>
+          <li>Gestão de Negócios e organização empresarial.</li>
+          <li>Planejamento operacional de uma floricultura.</li>
+          <li>Projeto Agenda 2030, envolvendo saúde, educação e inclusão.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>05 · Objetivo profissional</h2>
+        <p>Conseguir uma oportunidade como jovem aprendiz, colocando em prática os conhecimentos adquiridos no curso de Administração, desenvolvendo novas habilidades e conquistando experiência no mercado de trabalho.</p>
+      </section>
+
+      <section>
+        <h2>06 · Considerações finais</h2>
+        <p>Acredito que cada oportunidade é uma chance de aprender e evoluir. Quero construir minha trajetória profissional com dedicação, responsabilidade e determinação, sempre buscando melhorar e alcançar meus objetivos.</p>
+        <div class="quote">“Cada aprendizado é um passo para o meu futuro.”</div>
+      </section>
+    </main>
+
+    <footer>Paraná · 2026</footer>
+  </article>
+</body>
+</html>
